@@ -1,0 +1,32 @@
+/*Tag Element Selector */
+/* h1{
+    background-color: rgb(64, 10, 225);
+    font-size: 100px;
+  
+}
+    h2{
+background-color: beige;
+    }
+    */
+
+
+/* id base selector */
+#First{
+    background-color: blue;
+}
+/* #second{
+    background-color: antiquewhite;
+} */
+/*class abse selection*/
+.third{
+    background-color: goldenrod;
+}
+/* .fourth{
+    background-color: blueviolet;
+} */
+
+
+/*group base selection */
+h1,  .fourth ,#First{
+    background-color: aqua;
+}
