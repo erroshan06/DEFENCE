@@ -1,0 +1,35 @@
+
+#indian{
+    height: 200px;
+    width: 300px;
+    background-color: white;
+    position: relative;
+    /* left: 930px;
+    top: -600px; */
+}
+.orange{
+    height: 66.67px;
+    width: 300px;
+    background-color: rgb(255, 153, 51);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.green{
+    height: 66.67px;
+    width: 300px;
+    background-color: rgb(19, 136, 8);
+    position: absolute;
+    bottom: 0px;
+}
+.circle1{
+    height: 66.67px;
+    width:66.67px;
+    background-color:blue;
+border-radius: 50%;
+position: absolute;
+ top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

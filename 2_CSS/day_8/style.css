@@ -1,0 +1,37 @@
+h1{
+    background-color: aqua ;
+}
+
+h1{
+    background-color: grey;
+}
+
+
+h2{
+    background-color: rgb(17, 41, 33) !important;
+}
+ #firstId{
+    background-color: pink;
+}
+
+
+/*
+.Class_A{
+    background-color:rgb(16, 176, 16);
+
+} */
+
+li{
+    background-color: green;
+}
+
+/* 
+css: cascading style sheet 
+
+
+0. important
+1. inline css(priority high) 
+2. id (priority)
+3.class 
+4.tag(h1,h2); 
+5. ordering matter (whenever tie ) */

@@ -1,0 +1,59 @@
+
+h1{
+    background-color: aqua;
+   height: 300px;
+   width: 300px; 
+   /* padding: 40px;
+   margin: 20px; */
+    
+   /* display: inline; */
+
+/* display: inline-block; */
+border: 10px solid grey;
+padding: 20px;
+
+ box-sizing: content-box;
+
+
+
+
+}
+/* 
+universal selector 
+*{
+    margin: 0px;
+    padding: 0px;
+}  */
+ 
+  span{
+   
+    background-color: pink;
+     height: 200px;
+   width: 300px; 
+   /* padding: 20px;
+   margin: 20px; */
+
+   /* padding-top: 30px;
+   margin-bottom: 30px; */  
+   padding-left: 30px;
+   padding-right: 50px;
+   margin-left: 8px;
+   margin-right: 10px;
+   /* display: block; */
+
+
+}
+
+ h2{
+    background-color: brown;
+    /* display: inline; */
+
+/* display: inline-block; */
+   height: 300px;
+   width: 300px;  
+   border: 10px solid grey;
+padding: 20px;
+box-sizing: border-box;
+  }
+/* 
+  border -box = border -width + padding */
