@@ -4,13 +4,20 @@
     background-color: aqua;
     font-size: 50px;
 }
-@media screen and ( max-width:600px){
+
+@media screen and (min-width:600px) {
+    .container{
+        background-color: orange;
+        font-size: 60px;
+    }
+    
+}
+ @media screen and ( min-width:900px){
     
 .container{
-    /* height: 300px;
-    width: 300px; */
-    background-color: pink;
+ height: 300px;
+    width: 300px;
+     background-color: green;
     font-size: 30px;
 }
-    
-}
+}   
