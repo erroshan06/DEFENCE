@@ -29,7 +29,7 @@ else {
 //Logical Operators
 
 // && -: true and  true (should be both true )
- 
+
 //   ||-:  should be one condition true 
 
 // example - 
