@@ -1,4 +1,4 @@
-// // variable  ko kaise bnate h 
+ // // variable  ko kaise bnate h 
 // let name ="Rohit";
 // let age=20;
 // age = 30;
