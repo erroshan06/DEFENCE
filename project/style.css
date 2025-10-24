@@ -5,6 +5,10 @@
     overflow: hidden;
     position: relative;
 }
+body{
+   background-color: rgb(160, 175, 202); 
+   
+}
 .banner .slider{
     position: absolute;
     width: 200px;
@@ -19,10 +23,10 @@
 
 @keyframes autoRun {
    from{
-    transform:perspective(1000px) rotateY(0deg);
+    transform:perspective(1000px) rotateX(-16deg) rotateY(0deg);
    } 
     to{
-        transform:perspective(1000px) rotateY(360deg);
+        transform:perspective(1000px) rotateX(-16deg) rotateY(360deg);
     }
 }
 
@@ -30,7 +34,7 @@
     position: absolute;
     inset: 0 0 0 0 ;
     transform: 
-    rotateY(calc( (var(--position)-1)*(360deg / var(--quantity)) ))
+    rotateY(calc((var(--position))*(360deg / var(--quantity))))
     translateZ(550px);
 
 }
