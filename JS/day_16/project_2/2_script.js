@@ -5,3 +5,4 @@ parent .addEventListener('click',(e)=>{
   
   body.style .backgroundColor= child.id;
 })
+
