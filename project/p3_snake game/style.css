@@ -23,6 +23,11 @@ main,section{
 }
 section{
     padding: 40px;
+    display: flex;
+    flex-direction: column;
+   height: 100%;
+   background-color: rgb(3, 3, 35);
+   gap: 4px;
 }
 section .infos{
     width: 100%;
@@ -35,6 +40,19 @@ section .infos{
    border-radius:8px ;
 }
 
-border{
+.board{
+    border :1px solid  #333333;
+    flex-grow: 1;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(30px,1fr));
+    grid-template-rows: repeat(auto-fill,minmax(30px,1fr));
     
+}
+
+.block{
+    width: 30px;
+    height: 30px;
+    border:1px solid #333333 ;
+
+  
 }
